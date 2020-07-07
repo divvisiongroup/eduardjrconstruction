@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './styles/index.css';
+import App from './components/App';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(
+ReactDOM.hydrate(//Note: .render for event listeners ONLY is depricated (BEST PRACTICE TO USE EACH APPROPRIATELY AS NEEDED: MAYBE) 
   <React.StrictMode>
     <App />
   </React.StrictMode>,
