@@ -1,5 +1,5 @@
 {
-  "name": "eduardjrconstruction-site",
+  "name": "eduardjrconstruction",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,10 +11,10 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "node node_modules/react-scripts/scripts/start.js",
+    "build": "node node_modules/react-scripts/scripts/build.js",
+    "test": "node node_modules/react-scripts/scripts/test.js",
+    "eject": "node node_modules/react-scripts/scripts/eject.js"
   },
   "eslintConfig": {
     "extends": "react-app"
